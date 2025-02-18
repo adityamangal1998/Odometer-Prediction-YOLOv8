@@ -23,19 +23,10 @@ An automated system that extracts odometer readings from vehicle images using YO
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/odometer-prediction.git
-cd odometer-prediction
+git clone https://github.com/adityamangal1998/Odometer-Prediction-YOLOv8.git
+cd Odometer-Prediction-YOLOv8
 ```
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Download the pre-trained model:
-```bash
-python scripts/download_model.py
-```
 
 ## 📊 Data Preparation
 
@@ -78,24 +69,6 @@ predictor = OdometerPredictor(
 results = predictor.process_image('data/images/test.jpg')
 ```
 
-## 📁 Project Structure
-
-```
-odometer-prediction/
-├── data/               # Dataset directory
-│   ├── images/         # Input images
-│   └── labels/         # Training labels
-├── models/             # Trained models
-│   └── best.pt
-├── scripts/
-│   ├── train.py       # Training script
-│   ├── predict.py     # Inference script
-│   └── utils.py       # Utility functions
-├── output/            # Prediction results
-│   └── predictions.csv
-├── config.yaml        # Configuration file
-└── README.md
-```
 
 ## ⚙️ Model Configuration
 
@@ -162,7 +135,7 @@ odometer-prediction/
 
 Your Name - [adityamangal98@gmail.com](mailto:adityamangal98@gmail.com)
 
-Project Link: [https://github.com/yourusername/odometer-prediction](https://github.com/adityamangal1998/Odometer-Prediction-YOLOv8)
+Project Link: [https://github.com/adityamangal1998/Odometer-Prediction-YOLOv8](https://github.com/adityamangal1998/Odometer-Prediction-YOLOv8)
 
 ## 🙏 Acknowledgments
 
